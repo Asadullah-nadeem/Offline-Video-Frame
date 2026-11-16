@@ -614,3 +614,4 @@ To execute the test suite:
 19. `test_webp_output_format`: WebP compression and decoding validation.
 
 All 19 tests pass successfully.
+
