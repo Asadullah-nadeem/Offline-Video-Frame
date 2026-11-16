@@ -1,0 +1,20 @@
+{
+  "input_directory": "./input",
+  "output_directory": "./output",
+  "extraction_mode": "interval",
+  "frame_interval_seconds": 60,
+  "image_format": "jpg",
+  "jpeg_quality": 95,
+  "preserve_resolution": true,
+  "extract_audio": true,
+  "enable_transcription": false,
+  "transcription_language": "en",
+  "transcription_model_path": "./models/vosk-en",
+  "save_metadata": true,
+  "generate_csv": true,
+  "generate_srt": true,
+  "recursive_scan": false,
+  "max_parallel_jobs": 2,
+  "overwrite_existing": false
+}
+

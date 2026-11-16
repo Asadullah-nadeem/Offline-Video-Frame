@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# Test Media & Outputs
+tests/test_media/
+tests/test_outputs/
+output/
+!output/.gitkeep
+input/*
+!input/.gitkeep
+!input/sample_video.mp4
+
+# Models (except structure)
+models/*
+!models/vosk-en/
+!models/.gitkeep
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
